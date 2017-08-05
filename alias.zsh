@@ -120,3 +120,7 @@ alias reload="exec $SHELL -l"
 # Git PR Stuff
 alias pr='!f() { git fetch -fu ${2:-upstream} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f'
 alias pr-clean='!git checkout master ; git for-each-ref refs/heads/pr/* --format="%(refname)" | while read ref ; do branch=${ref#refs/heads/} ; git branch -D $branch ; done'
+
+# Python aliases
+alias python=python2
+alias pip=pip2
