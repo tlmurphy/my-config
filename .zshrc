@@ -6,3 +6,4 @@ source $ZSH/oh-my-zsh.sh
 for file in ~/Projects/config/*.zsh; do
     source "$file"
 done
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
