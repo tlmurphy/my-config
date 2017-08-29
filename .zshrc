@@ -1,5 +1,5 @@
 # Standard zsh stuff
-export ZSH=/Users/trevor/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 COMPLETION_WAITING_DOTS="true"
 plugins=(git chuck)
