@@ -2,11 +2,11 @@
 export ZSH=~/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 COMPLETION_WAITING_DOTS="true"
-plugins=(git chuck zsh-syntax-highlighting)
+plugins=(git chuck zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # Source custom files in config directory
-for file in ~/.config/*.zsh; do
+for file in ~/my-config/mac/*.zsh; do
     source "$file"
 done
 
