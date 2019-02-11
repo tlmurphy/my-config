@@ -1,7 +1,5 @@
 # Personal
 alias z="v ~/.zshrc"
-alias saychuck="chuck > temp.txt; say -v Alex < temp.txt; rm temp.txt"
-alias mymongo="mongod --config /usr/local/etc/mongod.conf"
 
 # Shortcuts
 alias dl="cd ~/Downloads"
@@ -69,7 +67,3 @@ command -v grunt > /dev/null && alias grunt="grunt --stack"
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
-
-# Python aliases
-alias python=python3
-alias pip=pip3
