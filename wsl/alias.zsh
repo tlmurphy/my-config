@@ -5,6 +5,7 @@ alias z="v ~/.zshrc"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
+alias d="cd /mnt/c/Users/Trevor/dev"  # Specifically for WSL
 alias g="git"
 alias h="history"
 alias j="jobs"

@@ -11,6 +11,9 @@ for file in ~/.config/*.zsh; do
     source "$file"
 done
 
+# DIRCOLORS
+eval "$(dircolors ~/.dircolors)"
+
 # Tabs with seprate history
 unsetopt inc_append_history
 unsetopt share_history
