@@ -1,5 +1,6 @@
 # Personal
 alias z="v ~/.zshrc"
+alias npmls="npm list -g --depth 0"
 
 # Shortcuts
 alias dl="cd ~/Downloads"

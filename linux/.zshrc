@@ -2,7 +2,7 @@
 export ZSH=~/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 COMPLETION_WAITING_DOTS="true"
-plugins=(git chuck zsh-syntax-highlighting)
+plugins=(git chuck zsh-syntax-highlighting zsh-autosuggestions)
 ZSH_DISABLE_COMPFIX=true  # for the syntax highlighting plugin
 source $ZSH/oh-my-zsh.sh
 
