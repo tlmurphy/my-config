@@ -2,7 +2,7 @@
 export ZSH=~/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 COMPLETION_WAITING_DOTS="true"
-plugins=(git chuck zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git chucknoris zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # Source custom files in config directory
