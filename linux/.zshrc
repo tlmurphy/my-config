@@ -2,7 +2,7 @@
 export ZSH=~/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 COMPLETION_WAITING_DOTS="true"
-plugins=(git chucknorris zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ZSH_DISABLE_COMPFIX=true  # for the syntax highlighting plugin
 source $ZSH/oh-my-zsh.sh
 
@@ -10,6 +10,10 @@ source $ZSH/oh-my-zsh.sh
 for file in ~/.config/*.zsh; do
     source "$file"
 done
+
+# DIRCOLORS
+# uncomment for wsl if needed
+# eval "$(dircolors ~/.dircolors)"
 
 # Tabs with seprate history
 unsetopt inc_append_history
