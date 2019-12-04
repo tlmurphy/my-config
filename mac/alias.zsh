@@ -1,6 +1,6 @@
 # Personal
 alias z="v ~/.zshrc"
-alias saychuck="chuck > temp.txt; say -v Alex < temp.txt; rm temp.txt"
+alias saychuck="chuck | say"
 alias mymongo="mongod --config /usr/local/etc/mongod.conf"
 
 # Shortcuts
@@ -116,7 +116,3 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
-
-# Python aliases
-alias python=python3
-alias pip=pip3
