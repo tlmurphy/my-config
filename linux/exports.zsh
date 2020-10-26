@@ -36,8 +36,10 @@ export NVM_DIR="$HOME/.nvm"
 
 # PYENV
 export PATH="~/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv-init -)"
+fi
 
 # LS_COLORS for wsl
 # export LS_COLORS=$LS_COLORS:'ow=1;34:'

@@ -1,9 +1,9 @@
+  
 # Standard zsh stuff
 export ZSH=~/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 COMPLETION_WAITING_DOTS="true"
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
-ZSH_DISABLE_COMPFIX=true  # for the syntax highlighting plugin
+plugins=(git chucknorris zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # Source custom files in config directory
@@ -16,9 +16,20 @@ done
 # eval "$(dircolors ~/.dircolors)"
 
 # Tabs with seprate history
-unsetopt inc_append_history
-unsetopt share_history
+#unsetopt inc_append_history
+#unsetopt share_history
 
 # Pure Prompt
+fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
 prompt pure
+
+# pyenv
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
