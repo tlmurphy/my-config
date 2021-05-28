@@ -6,7 +6,7 @@ plugins=(git chucknorris zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # Source custom files in config directory
-for file in ~/my-config/mac/*.zsh; do
+for file in ~/.config/*.zsh; do
     source "$file"
 done
 
