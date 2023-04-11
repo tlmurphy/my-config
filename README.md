@@ -5,7 +5,7 @@
 3. Copy `*.zsh` files under the `.config/` directory.
 4. For WSL, follow directions in dircolors.md.
 
-## Mac Notes:
+## Notes:
 
 ### Pure Prompt
 * Install it via npm.
