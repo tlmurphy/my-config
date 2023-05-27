@@ -30,4 +30,4 @@ export LESS_TERMCAP_md="${yellow}";
 export MANPAGER='less -X';
 
 # PATH
-export PATH="/usr/local/bin:/usr/local/sbin:~/bin:/opt/homebrew/bin:$(go env GOPATH)/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:/opt/homebrew/bin:$(go env GOPATH)/bin:$HOME/.jenv/bin:$PATH"
