@@ -58,5 +58,8 @@ NPM.
 1. `brew install scala`
 2. `brew install sbt`
 3. `brew install jenv`
-3. `sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk`
-4. `brew install --cask intellij-idea-ce`
+4. `brew install openjdk`
+5. `brew install openjdk@11` Just in case I need a lower java version.
+6. `jenv add /opt/homebrew/opt/openjdk/`
+7. `jenv global openjdk64-20.0.1`
+8. `brew install --cask intellij-idea-ce`
