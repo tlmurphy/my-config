@@ -49,10 +49,11 @@ NPM.
 
 ## Pure Prompt
 
-* Install it via npm: `npm install --global pure-prompt`
-* Make sure you're using the zsh shell installed from brew.
-* chsh is a little buggy with hyper and may require a restart (hyper issue?)
-* homebrew stores things in `/opt/homebrew/bin` now instead of `/usr/local/bin`
+`npm install --global pure-prompt`
+
+> Note: Make sure you're using the zsh shell from homebrew. Use `chsh`, then log out and log back in.
+> Also, homebrew stores things in `/opt/homebrew/bin` now instead of `/usr/local/bin`, so zsh should be
+> in `/opt/homebrew/bin/zsh`.
 
 ## Scala, Java, Intellij
 1. `brew install scala`
