@@ -1,6 +1,6 @@
 # My Config
 
-Config I use for software development on a MacOS operating system. This config can also
+Config I use for software development on a Mac. This config can also
 probably be used for Linux with some modifications.
 
 ## ZSH Config
