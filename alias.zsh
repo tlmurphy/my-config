@@ -116,3 +116,9 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+# docker compose
+alias docker-compose='docker compose'
+
+# PNPM alias
+alias pn=pnpm
