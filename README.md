@@ -9,13 +9,6 @@ probably be used for Linux with some modifications.
 2. Create `.config/` directory under home directory if it doesn't already exist.
 3. Copy `*.zsh` files under the `.config/` directory.
 
-## Hyper Terminal
-
-https://hyper.is/
-
-1. `brew install --cask hyper`
-2. `hyper i hyper-one-dark`
-
 ## Visual Studio Code
 
 `brew install --cask visual-studio-code`
@@ -33,6 +26,7 @@ NPM.
 2. `nvm install node`
 
 ## Postgresql and Beekeeper
+
 1. `brew install postgresql`
 2. `brew install --cask beekeeper-studio`
 
@@ -56,6 +50,7 @@ NPM.
 > in `/opt/homebrew/bin/zsh`.
 
 ## Scala, Java, Intellij
+
 1. `brew install scala`
 2. `brew install sbt`
 3. `brew install jenv`
