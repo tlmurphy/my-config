@@ -5,9 +5,9 @@ probably be used for Linux with some modifications.
 
 ## ZSH Config
 
-1. Copy `.zshrc` file into home directory.
-2. Create `.config/` directory under home directory if it doesn't already exist.
-3. Copy `*.zsh` files under the `.config/` directory.
+Run `./install.sh` once to set up symlinks. This is a one time process.
+Once this is done, changes to these files in this project can be seen
+immediately in a terminal session after reloading.
 
 ## Visual Studio Code
 
