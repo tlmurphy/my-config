@@ -20,5 +20,6 @@ backup_and_link ~/.config/alias.zsh       "$DOTFILES/alias.zsh"
 backup_and_link ~/.config/exports.zsh     "$DOTFILES/exports.zsh"
 backup_and_link ~/.config/functions.zsh   "$DOTFILES/functions.zsh"
 backup_and_link ~/.gitconfig              "$DOTFILES/.gitconfig"
+backup_and_link ~/.config/ghostty/config  "$DOTFILES/ghostty.config"
 
 echo "\nDone! Run: source ~/.zshrc"

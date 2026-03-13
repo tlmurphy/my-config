@@ -1,5 +1,6 @@
-# Make vim the default editor.
-export EDITOR='vim';
+# Make VS Code the default editor for Git and other command-line tools.
+export VISUAL="code --wait"
+export EDITOR="code --wait"
 
 # Enable persistent REPL history for `node`.
 export NODE_REPL_HISTORY=~/.node_history;

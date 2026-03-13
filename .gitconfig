@@ -194,4 +194,8 @@
 [user]
   	
 	email = trevorlm95@gmail.com
-  	name = Trevor Murphy
+  name = Trevor Murphy
+
+[init]
+
+	defaultBranch = main
